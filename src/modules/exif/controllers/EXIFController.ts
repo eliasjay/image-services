@@ -4,7 +4,7 @@ import EXIFService from '../services/EXIFService'
 
 class EXIFController {
   public async create(request: Request, response: Response): Promise<Response> {
-    const { image } = request.file.buffer
+    const image = request.file.buffer
 
     console.log('image: ', image);
 
