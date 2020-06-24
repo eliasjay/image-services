@@ -1,12 +1,16 @@
 import AppError from '@shared/errors/AppError'
 
 interface Image {
-  file: Buffer
+  image: Buffer
 }
 
 class EXIFService {
-  public async execute({ file }: Image): Promise<Buffer | void> {
-    return file
+  public async execute({ image }: Image): Promise<Buffer> {
+    if (!image) {
+      throw new AppError('Could not upload your image')
+    }
+
+    return image
   }
 }
 
