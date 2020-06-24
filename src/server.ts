@@ -29,8 +29,4 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   })
 })
 
-app.get('/', (request, response) => {
-  return response.json({ message: 'it works' })
-})
-
 app.listen(1337)
