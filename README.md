@@ -1,6 +1,6 @@
-# EXIF Cloud Service
+# Image Service
 
-A simple exif service for Cloud Architecture Classes
+A simple colection of image services for Cloud Architecture and API Architecture Classes 
 
 ## :rocket: Technologies
 
