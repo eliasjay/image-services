@@ -26,9 +26,9 @@ To run in production mode: ```yarn build``` & ```yarn start```
 
 ```env
 NODE_ENV=development
-CLODINATY_NAME=<cloudinary_name>
-CLODINATY_API_KEY=<cloudinary_api_key>
-CLODINATY_API_SECRET=<cloudinary_api_secret>
+CLOUDINARY_NAME=<cloudinary_name>
+CLOUDINARY_API_KEY=<cloudinary_api_key>
+CLOUDINARY_API_SECRET=<cloudinary_api_secret>
 ```
 
 ### src/modules/imgur/services
