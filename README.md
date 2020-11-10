@@ -1,4 +1,4 @@
-# Image Service
+# Image Services
 
 A simple colection of image services for Cloud Architecture and API Architecture Classes 
 
