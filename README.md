@@ -6,6 +6,9 @@ A simple colection of image services for Cloud Architecture and API Architecture
 
 - [Node](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Imgur API](https://apidocs.imgur.com/)
+- [Cloudinary API](https://cloudinary.com/documentation/image_upload_api_reference)
 
 ## :gear: How to run
 
