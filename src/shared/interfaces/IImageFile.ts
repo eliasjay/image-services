@@ -5,5 +5,6 @@ export default interface IImageFile {
     encoding: string
     mimetype: string
     buffer: Buffer
+    path: String
   }
 }
