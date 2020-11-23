@@ -10,6 +10,6 @@ const routes = Router()
 routes.use('/exif', EXIFRouter)
 routes.use('/deleting', ImgurRouter)
 routes.use('/compressing', compressingRouter)
-routes.use('/greyscale', greyscaleRouter)
+routes.use('/grayscale', greyscaleRouter)
 
 export default routes
