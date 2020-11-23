@@ -29,4 +29,4 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   })
 })
 
-app.listen(1337)
+app.listen(process.env.PORT || 1337)
